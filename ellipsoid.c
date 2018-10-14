@@ -11,7 +11,7 @@ int main()
   a   = 1 + epsilon;
   b   = 1 - epsilon/2;
   aob = a/b;
-  printf("aob = %f\n", aob);
+  printf("a/b = %f\n", aob);
   
   FILE *gp;// For gnuplot
   
